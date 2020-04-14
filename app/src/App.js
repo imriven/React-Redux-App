@@ -15,8 +15,7 @@ flex-wrap: wrap;
 margin-top: 5%;
 border-radius: 0 5%;
 padding: 1%;
-width: 60%;
-color:white;
+width: 80%;
 text-align: center;
 `
 
@@ -33,23 +32,19 @@ width: 100%;
 const VideoBackground = Styled.div`
 display: flex;
 justify-content: center;
+margin-top: -35%;
 `
 
 const AwesomeHeader = Styled.h1`
+margin-top: 40%;
 display:flex;
 text-align:center;
 color: white;
 text-shadow: 5px 5px 8px mediumPurple;
 text-align: center;
+position:relative
 `
 
-const AwesomeTitleHeader = Styled.h2`
-display:flex;
-text-align:center;
-color: white;
-text-shadow: 5px 5px 8px lime;
-text-align: center;
-`
 
 /***/
 function App() {

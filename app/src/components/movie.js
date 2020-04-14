@@ -9,10 +9,11 @@ justify-content:center;
 align-items:center;
 margin: 5%;
 padding: 3%;
-width: 25%;
+width: 17%;
 color:white;
-background: linear-gradient(90deg, rgba(185,157,231,0.6222864145658263) 0%, rgba(101,171,78,0.6923144257703081) 47%, rgba(185,157,231,0.6222864145658263) 95%);
+background: linear-gradient(65deg, rgba(185,157,231,0.8) 0%, rgba(101,171,78,0.8) 47%, rgba(185,157,231,0.8) 95%);
 border-radius: 25px;
+border: 2px solid purple;
 `
 
 const AwesomeHeader = Styled.h3`
